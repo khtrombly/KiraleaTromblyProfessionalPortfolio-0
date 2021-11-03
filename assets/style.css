@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+Body {
+    margin: 0 auto;
+    background-color: rgb(168, 155, 139);
+    font-size: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    border-bottom: 10px;
+    border-color: blanchedalmon;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 200%;
+}
+
+header h1 #Header-Description {
+    color: #d9dcd6;
+    font-size: 50%;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul a {
+    display: inline-block;
+    margin-left: 25px;
+    color: rgb(37, 33, 33);
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    color: white;
+    flex-direction: row;
+}
+
+h2 {
+    display: block;
+    font-size: 250%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+Aside {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+}
+
+Aside section p {
+        /* display: flex; */
+        justify-content: center;
+        font-size: 75%;
+        color: white;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-bottom: 5%;
+}
+
+Aside img {
+    diplay: flex;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    padding-bottom: 2%;
+}
+
+.projects {
+    display: inline;
+    position: relative;
+    width: 75%;
+    margin: 0 auto; 
+    border-color: black;
+    border-width: 1%;
+}
+
+.project-container {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    left: 25%;
+    border: 5px;
+    border-color: black;
+    border-color: 2px;
+}
+
+.complete:hover {
+    display: flex;
+    height: 400px;
+    background-color: blue;
+}
+
+.upcoming:hover {
+    display: flex;
+    height: 200px;
+    background-color: red;
+}
+
+
+main p {
+    display: flex;
+    justify content: center;
+    padding: 2%;
+}
+
+.upcoming {
+    background-color: grey;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    color: white;
+    padding-bottom: 2%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    border-bottom: 10px;
+    border-color: blanchedalmon;
+}
+/* footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: ffffff;
+    border-top: 10px;
+    border-color: blanchedalmond;
+}
+
+footer ul li {
+    display: inline-block;
+    font: 150%;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+footer ul a{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h5 {
+    display: flex;
+    justify content: center;
+}
+
+footer li #Information {
+    color: #d9dcd6;
+    font-size: 60%;
+    
+} */
+
+#Cover-Image {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-image: url("../Assets/Background-Photo-grey.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#link {
+    color: Black;
+}
