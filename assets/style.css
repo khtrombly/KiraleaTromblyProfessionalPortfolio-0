@@ -86,7 +86,7 @@ Aside section p {
 }
 
 Aside img {
-    diplay: flex;
+    display: flex;
     text-align: center;
     height: 300px;
     width: 400px;
@@ -115,6 +115,7 @@ Aside img {
     border-color: black;
     border-color: 2px;
 }
+
 
 .complete:hover {
     display: flex;
@@ -162,41 +163,6 @@ footer {
     border-bottom: 10px;
     border-color: blanchedalmon;
 }
-/* footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: ffffff;
-    border-top: 10px;
-    border-color: blanchedalmond;
-}
-
-footer ul li {
-    display: inline-block;
-    font: 150%;
-    text-decoration: none;
-    justify-content: space-evenly;
-}
-
-footer ul a{
-    display: flex;
-    list-style-type: none;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-h5 {
-    display: flex;
-    justify content: center;
-}
-
-footer li #Information {
-    color: #d9dcd6;
-    font-size: 60%;
-    
-} */
 
 #Cover-Image {
     display: flex;
@@ -207,6 +173,20 @@ footer li #Information {
     background-position: center;
 }
 
-#link {
-    color: Black;
+#CodeRefactor {
+    color: white;
+    text-decoration: none;
 }
+
+h3 a{
+    color: white;
+    text-decoration: none;  
+}
+
+
+@media screen and (max-width: 768px) {
+    header,
+    main,
+    nav {
+        flex-direction: column;
+    }
